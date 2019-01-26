@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "catergory"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A short description of catergory."
 
   s.homepage     = "https://github.com/18225905675/catergory"
@@ -20,14 +20,13 @@ Pod::Spec.new do |s|
 
   s.author             = { "RuanYunKeji" => "2391288572@qq.com" }
  
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "10.0"
 
 
   s.source       = { :git => "=https://github.com/18225905675/catergory.git", :tag =>s.version }
 
   s.source_files  = "classes/*.{h,m}"
 
-
-   s.requires_arc = true
+  s.requires_arc = true
 
 end
