@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
 
 
-  s.source       = { :git => "http://https://github.com/18225905675/catergory.git", :tag =>s.version }
+  s.source       = { :git => "=https://github.com/18225905675/catergory.git", :tag =>s.version }
 
   s.source_files  = "classes/*.{h,m}"
 
