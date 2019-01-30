@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "catergory"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "分类"
 
   s.homepage     = "https://github.com/18225905675/catergory"
